@@ -41,7 +41,7 @@ function timeCounter(arg1, arg2) {
   var sessionTime = arg1;
   var breakTime = arg2;
   var interval = setInterval(function() {
-    arg1 -= 10000;
+    arg1 -= 1000;
     var getDate = new Date();
     getDate.setTime(arg1);
     var timer = document.getElementById("timer");
