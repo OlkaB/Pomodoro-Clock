@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Pomodoro Clock</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="header">Pomodoro Clock<br><span> be more effective!</span></div>
+
+    <div class="settings">
+      <div class="session">session duration<br>(set num. of mins.)<br>
+        <div class="minus" id="sessionMinus">-</div>
+        <div class="time" id="sessionTime">20</div>
+        <div class="plus" id="sessionPlus">+</div>
+      </div>
+      <div class="break">break duration<br>(set num. of mins.)<br>
+        <div class="minus" id="breakMinus">-</div>
+        <div class="time" id="breakTime">5</div>
+        <div class="plus" id="breakPlus">+</div>
+      </div>
+    </div>
+
+    <div class="clock" id="wholeClock">
+      <div class="lay1">
+        <div class="lay2">
+          <div class="lay3">
+            <div class="lay4">
+              <div id="clock" class="lay5">
+                <span id="ele">click</span><br>
+                <span id="timer">to start</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="resetBttn">Reset timer</div>
+  </div>
+</div>
+<script src="js.js"></script>
+</body>
+</html>

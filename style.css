@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box
+}
+
+body {
+  /*background: #308D82;*/
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAGklEQVQYV2M06G36/+XtWwYQ4BEWZmAkXQAAEtcU/U+PswkAAAAASUVORK5CYII=);
+}
+
+body>div,
+.clock>div {
+  margin: auto;
+}
+
+.container {
+  width: 60%;
+}
+
+.header {
+  font-family: 'Lobster', cursive;
+  font-size: 52px;
+  text-align: center;
+  color: #ffe7ac;
+  padding: 50px;
+}
+
+.header>span {
+  
+  font-size: 36px;
+}
+
+.settings {
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  height: 120px;
+  padding: 5px;
+}
+
+.break,
+.session {
+  width: 40%;
+  height: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 23px;
+}
+
+.session,
+.minus {
+  float: left;
+}
+
+.time {
+  float: left;
+  width: 40%;
+}
+
+.break,
+.plus {
+  float: right;
+}
+
+.minus,
+.plus {
+  width: 30%;
+  font-family: 'Dosis:500', sans-serif;
+  cursor: pointer;
+}
+
+#wholeClock {
+  cursor: pointer;
+}
+
+.lay1 {
+  width: 250px;
+  height: 250px;
+  background: #ffe7ac;
+  border-radius: 125px;
+  padding: 5px;
+  box-shadow: 2px 2px 7px 3px rgba(0, 0, 0, 0.75);
+}
+
+.lay2 {
+  width: 240px;
+  height: 240px;
+  border: 3px dashed #376660;
+  border-radius: 120px;
+  padding: 5px;
+}
+
+.lay3 {
+  width: 225px;
+  height: 225px;
+  border: 2px solid #3e290e;
+  border-radius: 115px;
+  padding: 20px;
+}
+
+.lay4 {
+  width: 182px;
+  height: 182px;
+  border: 2px solid #3e290e;
+  border-radius: 100px;
+  padding: 10px;
+}
+
+.lay5 {
+  width: 161px;
+  height: 161px;
+  border: 3px dotted #376660;
+  border-radius: 100px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: inset 2px 2px 7px 3px rgba(0, 0, 0, 0.75);
+  font-size: 45px;
+  color: #c25f0e;
+  text-align: center;
+  display: inline-block;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+#ele {
+  font-size: 30px;
+}
+
+#resetBttn {
+  font-size: 20px;
+  color: yellow;
+  text-align: center;
+  padding-top: 15px;
+  margin: auto;
+  cursor: pointer;
+  font-family: 'Dosis:600', sans-serif;
+  width: 120px;
+}
